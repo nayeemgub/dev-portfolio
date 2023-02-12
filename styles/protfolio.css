@@ -5,7 +5,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 226px;
+    margin: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -32,4 +32,31 @@ nav li{
     list-style: none;
     margin-left: 50px;
     font-size: 20px;
+}
+
+
+/* banner styles */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+    font-weight: 600;
+font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-name{
+    font-weight: 700;
+font-size: 85px;
+color: #181818;
+margin-bottom: 20px;
+
+}
+.banner-par{
+    font-weight: 400;
+font-size: 18px;
+color: #757575;
+margin-bottom: 30px;
 }
