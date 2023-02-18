@@ -1,20 +1,24 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     height: 64px;
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -24,45 +28,50 @@ nav{
     border: 0;
     padding: 18px 35px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 50px;
     font-size: 20px;
 }
 
-.header{
+.header {
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png) , url(../images/developer.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right , left ;
+    background-position: bottom right, left;
 }
 
 /* banner styles */
-.banner{
+.banner {
     margin-left: 200px;
     margin-right: 35px;
     justify-content: space-between;
     display: flex;
     align-items: center;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 600;
     font-size: 45px;
     color: #474747;
     margin-bottom: 5px;
 }
-.banner-name{
+
+.banner-name {
     font-weight: 700;
     font-size: 85px;
     color: #181818;
     margin-bottom: 20px;
 
 }
-.banner-par{
+
+.banner-par {
     font-weight: 400;
     font-size: 18px;
     color: #757575;
@@ -70,82 +79,178 @@ nav li{
 }
 
 /* main max-width set and center  */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 
 }
-.about-class{
+
+.about-class {
     padding: 130px 156px;
-    background: #FFF8F3;;
+    background: #FFF8F3;
+    ;
     border-radius: 10px;
     margin-top: 130px;
     text-align: center;
 }
-.section-title{
+
+.section-title {
     font-weight: 700;
     font-size: 35px;
-    
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
 }
-.section-description{
+
+.section-description {
     font-size: 18px;
     /* text-align: center; */
     color: #757575;
     margin-bottom: 30px;
 }
 
-.about-item-cont{
+.about-item-cont {
     display: flex;
     justify-content: space-between;
 }
-.info-title{
+
+.info-title {
     color: #757575;
     font-size: 20px;
 }
-.info-description{
+
+.info-description {
     color: #474747;
     font-weight: 700;
     font-size: 20px;
 }
-.info-description-email{
+
+.info-description-email {
     color: #474747;
     font-weight: 700;
     font-size: 18px;
 }
 
 /* what i do section */
-.what-i-do{
+.what-i-do {
     text-align: center;
     margin-top: 130px;
 
 }
-.skill-container{
+
+.skill-container {
     display: flex;
     gap: 24px;
 }
-.skill-section-description{
+
+.skill-section-description {
     font-size: 18px;
     /* text-align: center; */
     color: #757575;
     margin-bottom: 50px;
     padding: 0px 45px;
 }
-.skill{
+
+.skill {
     width: 267px;
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.165);
     border-radius: 5px;
-padding: 30px;
+    padding: 30px;
+    margin-bottom: 120px;
+}
 
-}
-.skill-title{
+.skill-title {
     font-weight: 700;
-font-size: 20px;
-margin-top: 30px;
-margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
-.skill-description{
+
+.skill-description {
     font-size: 16px;
     color: #757575;
+}
+
+/* resume section style */
+.resume {
+    /* text-align: center; */
+}
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-title-main {
+    margin-top: 63px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+
+}
+
+.resume-title1 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.resume-title2 {
+    font-weight: 600;
+    font-size: 20px;
+
+
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-description {
+    font-weight: 400;
+    font-size: 16px;
+
+
+    color: #757575;
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+
+.resume-btn {
+    text-align: center;
+}
+
+/* contact section style */
+.contract {
+
+    background: #fbf2eb;
+    padding: 130px 50px;
+    display: flex;
+    gap: 110px;
+}
+
+.contract .section-title {
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.contract .section-description {
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+
+.contract a {
+    text-decoration: none;
+    margin-right: 24px;
+}
+
+.contract input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
 }
